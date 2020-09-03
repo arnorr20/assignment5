@@ -10,3 +10,8 @@
 # if user input is a negative integer
 # stop asking user to input a number
 # and output the number stored in max_int variable
+
+
+num_int = int(input("Input a number: "))    # Do not change this line
+# Fill in the missing code
+print("The maximum is", max_int)    # Do not change this line
