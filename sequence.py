@@ -8,3 +8,6 @@
 # n is the sum of previous 3 numbers
 
 n = int(input("Enter the length of the sequence: ")) # Do not change this line
+
+for i in range(1,n):
+    print(i)
