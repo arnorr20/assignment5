@@ -6,3 +6,5 @@
 # run the sequence that prints n every time
 # if n gets higher than 3 then
 # n is the sum of previous 3 numbers
+
+n = int(input("Enter the length of the sequence: ")) # Do not change this line
