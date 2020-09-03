@@ -9,12 +9,9 @@
 # for exapmle: 1+2+3=6 then 2+3+6=11
 
 n = int(input("Enter the length of the sequence: ")) # Do not change this line
-a,b,c=1,2,3
-for i in range(1,n+1):
-    
-    if i < 4:
-        print(i)
-    else:
-        sum_num = a+b+c
-        print(sum_num)
-        a,b,c = b,c,sum_num
+a,b,c=0,1,0
+for i in range(n):
+
+    sum_num = a+b+c
+    a,b,c = b,c,sum_num
+    print(sum_num)
