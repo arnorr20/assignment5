@@ -10,4 +10,7 @@
 n = int(input("Enter the length of the sequence: ")) # Do not change this line
 
 for i in range(1,n):
-    print(i)
+    if i < 4:
+        print(i)
+    else:
+        print('eitthvað')
